@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHeroes</title>
+</head>
+<body>
+    <form action="">
+        <div class="nombre">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <div class="edad">    
+            <label for="edad">Edad</label>
+            <input type="text" name="edad" id="edad">
+        </div>
+        <div class="codeName">
+            <label for="codeName">Nombre Clave</label>
+            <input type="text" name="codeName" id="codeName">
+        </div>
+        <div id="container">
+            <input type="text" id="itemInput">
+            <button onclick="addItem()">+</button>
+        </div>
+        <div id="itemList">
+            <!-- Items will be dynamically added here -->
+        </div>
+        <div class="position">
+            <label for="">Position</label>
+            <label for="">Lat</label>
+            <input type="text" name="lat" id="lat">
+            <label for="">Lon</label>
+            <input type="text" name="lon" id="lon">
+        </div>
+        <div class="image">
+            <label for="">Image</label>
+            <input type="file" id="img" name="img" accept="image/*">
+            <input type="submit">
+        </div>
+    </form>
+</body>  
+</html>
